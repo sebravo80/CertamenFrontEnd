@@ -1,86 +1,76 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="es">
-
-<head>  
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="cosas/styles/styles.css">
     <title>INACAP Bikes</title>
-    <body>
-        <header>
-            <h1>INACAP BIKES</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="galeria.html">Galería de Imagenes</a></li>
-                    <li><a href="ofertas.html">Ofertas</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <section class="hero">
-                <h2>Bicicletas</h2>
-                <p>Explora nuestra galería y descubre las bicicletas que tenemos para ti.</p>
-            </section>
-
-            <section class="Contenido">
-                <h2>Contenido Principal</h2>
-                <p>Bicicletas destacadas.</p>
-                <div class="Galería">
-                    <img src="cosas/img/MountainBikeTopFuel9.8XT.webp" alt="Bicicleta 1" width="300" height="200">
-                    <img src="cosas/img/EnduroTrekTopFuel8.jpeg" alt="Bicicleta 2" width="300" height="200">
-                    <img src="cosas/img/MountainBikeTopFuel9.8XT.webp" alt="Bicicleta 3" width="300" height="200">
-                    <img src="cosas/img/ToproclFreestyleVerde.webp" alt="Bicicleta 4" width="300" height="200">
-            </section>
-
-        </main>
-            <h1>Bicicletas</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="galeria.html">Galería</a></li>
-                    <li><a href="ofertas.html">Ofertas</a></li>
-                </ul>
-            </nav>
-    </body>
 </head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <h1 class="text-center">INACAP Bikes</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="galeria.html">Galería</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" href="ofertas.html">Ofertas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container my-5">
+        <section class="ofertas">
+            <h2 class="text-center mb-4">Bicicletas Destacadas</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-3 m-3 border rounded p-3 shadow-sm text-center">
+                    <img src="cosas/img/bici1.jpeg" alt="Bicicleta 1" class="img-fluid mb-3">
+                    <h4>Mountain Bike</h4>
+                    <p class="fw-bold text-danger">Precio: $300.000</p>
+                </div>
+                <div class="col-md-3 m-3 border rounded p-3 shadow-sm text-center">
+                    <img src="cosas/img/bici2.jpeg" alt="Bicicleta 2" class="img-fluid mb-3">
+                    <h4>Bicicleta de Ruta</h4>
+                    <p class="fw-bold text-danger">Precio: $250.000</p>
+                </div>
+                <div class="col-md-3 m-3 border rounded p-3 shadow-sm text-center">
+                    <img src="cosas/img/bici3.jpg" alt="Bicicleta 3" class="img-fluid mb-3">
+                    <h4>Bicicleta Híbrida</h4>
+                    <p class="fw-bold text-danger">Precio: $350.000</p>
+                </div>
+                <div class="col-md-3 m-3 border rounded p-3 shadow-sm text-center">
+                    <img src="cosas/img/bici4.jpeg" alt="Bicicleta 4" class="img-fluid mb-3">
+                    <h4>Bicicleta de Ciudad</h4>
+                    <p class="fw-bold text-danger">Precio: $200.000</p>
+            </div>
+        </section>
+    </main>
 
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <div class="container">
+            <p>Fono: +56956291545</p>
+            <p>Email: sebastian.bravo80@inacamail.cl</p>
+            <p>Dirección: Los Angeles, Región del Biobío, Chile</p>
+            <p><a href="https://github.com/sebravo80/CertamenFrontEnd" class="text-white">Repositorio de Github</a></p>
+        </div>
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer>    
-    <p>Fono: +56956291545</p>
-    <p>Email: sebastian.bravo80@inacamail.cl</p>
-    <p>Dirección: Los Angeles, Región del Biobío, Chile</p>
-    <p>Repositorio de GitHub: https://github.com/sebravo80/CertamenFrontEnd</p>
-</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>
